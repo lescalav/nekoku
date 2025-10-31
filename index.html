@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--titulo + favicon-->
+        <title>---NEKOKU---</title>
+        <link rel="icon" type="image/png" href="img/gato.png"/>
+        <!--enlace a hoja de estilo-->
+        <link rel="stylesheet" href="./css/styles.css">        
+    </head>
+
+    <body>
+        <header id="logo">
+            <img src="img/animales-fondo.png" alt="Isotipo de Nekoku en el que se muestra a un gato, un perro, una gallina y un zorro"/>
+        </header>
+
+        <main id="inicio">
+            <form id="login">
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" name="usuario" value="usuario"/>
+                <label for="contrasenia">Contraseña</label>
+                <input type="text" id="contrasenia" name="contrasenia"/>
+                <p id="textoError"></p>
+                <button type="submit" id="botonLogin">Inicia sesión</button>
+                <p id="ayudaContrasenia" title="¡Ups! Esta opción está temporalmente deshabilitada.">¿Olvidaste tu contraseña?</p>
+            </form>
+        </main>
+
+        <footer>
+            <img src="img/nekoku-logo.png" alt="---NEKOKU---"/>
+        </footer>
+
+    
+    <!--enlace al archivo javascript-->    
+    <script type="module" src="./js/main.js"></script>
+    </body>
+</html>

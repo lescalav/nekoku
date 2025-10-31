@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--titulo + favicon-->
+        <title>---NEKOKU---</title>
+        <link rel="icon" type="image/png" href="img/gato.png"/>
+        <!--enlace a hoja de estilo-->
+        <link rel="stylesheet" href="./css/styles.css">        
+    </head>
+
+    <body>
+
+        <main id="juego">
+            <section id="zona-juego">
+                <div id ="botones">
+                    <img src="img/reset.png" id="boton-reset"></img>
+                    <img src="img/check.png" id="boton-check"></img>
+                </div>
+                <div id="cuadricula"></div>
+                <div id ="animales"></div>
+            </section>
+            <section id="zona-informacion">
+                <p id="errores">Hay errores en tu solución.</p>
+                <div class="recuadroAmarillo"><p id ="cuenta-atras" class="tiempo-resultado"></p></div>
+            </section>
+        </main>
+
+        <footer>
+            <img src="img/nekoku-logo.png" alt="---NEKOKU---"/>
+        </footer>
+
+    
+    <!--enlace al archivo javascript-->    
+    <script type="module" src="./js/main.js"></script>
+    </body>
+</html>

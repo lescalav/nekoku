@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--titulo + favicon-->
+    <title>---NEKOKU---</title>
+    <link rel="icon" type="image/png" href="img/gato.png" />
+    <!--enlace a hoja de estilo-->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      
+    </header>
+
+    <main id="bienvenida">
+        <section id="textobienvenida">
+            <h1>¡Bienvenido a ---NEKOKU---!</h1>
+            <p>
+                ¿Sabes cómo funciona un sudoku? ¡Pues es lo mismo, solo que con animales!
+                Encontrarás una cuadrícula de 4x4 (principiante), 6x6 (intermedio) o 
+                9x9 (avanzado) en la que tendrás que lograr que, en cada columna y fila,
+                haya un animal de cada tipo. En el nivel avanzado, tampoco podrán repetirse
+                animales en los cuadrantes 3x3.
+            </p>
+            <p>
+                Además, verás que hay un cronómetro que te marca el tiempo límite.
+                Puedes colocar animales arrastrándolos y eliminarlos con un doble click.
+                Por último, cuentas con un botón para resetear tu tablero si quieres empezar de cero y
+                otro para validar tus respuestas.
+            </p>
+            <p>Ahora que estás listo... ¡selecciona el nivel!</p>
+        </section>
+        <section id="niveles">
+            <div>
+                <img class="nivelimg" src="img/pollito.png" alt="Principiante"><br>
+                <button class="nivelboton" id="principiante">Principiante</button>
+            </div>
+            <div>
+                <img class="nivelimg" src="img/gato.png" alt="Intermedio"><br>
+                <button class="nivelboton" id="intermedio">Intermedio</button>
+            </div>
+            <div>
+                <img class="nivelimg" src="img/zorro.png" alt="Avanzado"><br>
+                <button class="nivelboton" id="avanzado">Avanzado</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+      <img src="img/nekoku-logo.png" alt="NEKOKU logotipo" />
+    </footer>
+
+    <!--enlace al archivo javascript-->
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
