@@ -198,7 +198,7 @@ export const ejecutarJuego = () => {
                     clearInterval(timerId);
                     alert("El tiempo se ha agotado.");
                     localStorage.setItem('resultado', false)
-                    location.replace('../resultados.html')
+                    location.replace('resultados.html')
                 } else {
                     let minutos = Math.floor(tiempoRestante / 60)
                     let segundos = tiempoRestante % 60
@@ -302,3 +302,4 @@ export const ejecutarJuego = () => {
 
         
     }
+
