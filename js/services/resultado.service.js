@@ -17,11 +17,12 @@ export const mostrarResultados = function() {
 
     document.addEventListener('keydown', function(s) {
         if(s.key === 's'|| s.key === 'S') {
-            location.replace('../bienvenida.html')
+            location.replace('bienvenida.html')
         } else if(s.key === 'n' || s.key === 'N') {
             //Tendria que desloggear y borrar el session storage
-            location.replace('../index.html')
+            location.replace('index.html')
         }
     })
+
 
 }
